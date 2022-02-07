@@ -10,10 +10,19 @@
   "scripts": {
     "build":"gulp && webpack-cli"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0"
   },
+  "authors": {
+    "name": "smart_liujin",
+    "email": "491289202@qq.com"
+  },
   "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  }
 }

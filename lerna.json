@@ -6,7 +6,7 @@
   "npmClient":"yarn",
   "command": {
     "version": {
-      "allowBranch": "master",
+      "allowBranch": "main",
       "includeMergedTags": true
     },
     "publish": {
