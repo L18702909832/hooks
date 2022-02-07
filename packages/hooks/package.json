@@ -1,0 +1,19 @@
+{
+  "name": "zhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/ahooks.js",
+  "sideEffects": false,
+  "scripts": {
+    "build":"gulp && webpack-cli"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
