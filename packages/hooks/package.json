@@ -1,6 +1,6 @@
 {
   "name": "zhooks",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "./lib/index.js",
   "module": "./es/index.js",
@@ -8,7 +8,7 @@
   "unpkg": "dist/ahooks.js",
   "sideEffects": false,
   "scripts": {
-    "build":"gulp && webpack-cli"
+    "build": "gulp && webpack-cli"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.com/"
